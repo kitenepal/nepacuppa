@@ -9,10 +9,47 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/kitenepal/css/kitenepal.min.css">
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/bgVideo.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<div class="header-video">
+		<video poster="assets/screenshot1.jpg" autoplay="" muted="" loop="" class="vidbacking-active-body-back" style="">
+            <source src="vdo/coffee.mp4" type="video/mp4">
+        </video>
+	</div>
+
+	<!-- navbar -->
+	<nav class="navbar navbar-inverse md--nav" data-spy="affix" data-offset-top="760">
+	<div class="container-fluid">
+	  <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	    </button>
+	    <a class="navbar-brand" href="#">WebSiteName</a>
+	  </div>
+	  <div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#section1">Section 1</a></li>
+	        <li><a href="#section2">Section 2</a></li>
+	        <li><a href="#section3">Section 3</a></li>
+	        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#section41">Section 4-1</a></li>
+	            <li><a href="#section42">Section 4-2</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	</nav>
+	<!-- navbar end -->
 	<!-- Coffee Blog -->
-	<section class="coffeeblog">
+	<section class="coffeeblog navfix-management">
 		<div class="container">
 			<h1 class="text-center section-title">Coffee Blog</h1>
 			<div class="row">
@@ -78,6 +115,7 @@
 	</section>
 	<!-- /Coffee Blog -->
 
+	
 	<!-- Good Reading -->	
 	
 	<section id="hero1" class="hero">
@@ -88,7 +126,8 @@
 	    </div>
 	  </div>
 	</section>
-
+	
+	<div class="extra-shit"></div>
 	<!-- /Good Reading -->
 </body>
 </html>

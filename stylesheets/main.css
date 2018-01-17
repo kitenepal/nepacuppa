@@ -46,33 +46,37 @@ a {
   border-bottom: 1px solid;
 }
 
-/* line 3, ../sass/module/_goodReading.scss */
+/* line 1, ../sass/module/_goodReading.scss */
 #hero1 {
   background: url("../img/goodreading.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-/* line 10, ../sass/module/_goodReading.scss */
+/* line 12, ../sass/module/_goodReading.scss */
 .hero, .content {
   text-align: center;
   position: relative;
   width: 100%;
 }
 
-/* line 16, ../sass/module/_goodReading.scss */
+/* line 18, ../sass/module/_goodReading.scss */
 .inner {
   min-height: 600px;
   position: relative;
 }
 
-/* line 21, ../sass/module/_goodReading.scss */
+/* line 23, ../sass/module/_goodReading.scss */
 .hero .inner {
   background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
 }
 
-/* line 25, ../sass/module/_goodReading.scss */
+/* line 27, ../sass/module/_goodReading.scss */
 .copy {
   position: absolute;
   top: 50%;
@@ -81,7 +85,39 @@ a {
   width: 100%;
 }
 
-/* line 33, ../sass/module/_goodReading.scss */
+/* line 35, ../sass/module/_goodReading.scss */
 .hero h1, .hero p {
   color: #fff;
+}
+
+/* line 1, ../sass/module/_header.scss */
+.header-video {
+  line-height: 0px;
+}
+/* line 3, ../sass/module/_header.scss */
+.header-video video {
+  width: 100%;
+}
+
+/* line 7, ../sass/module/_header.scss */
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+/* line 13, ../sass/module/_header.scss */
+.navbar {
+  margin-bottom: 0px;
+}
+
+/* line 17, ../sass/module/_header.scss */
+.affix ~ .navfix-management {
+  position: relative;
+  top: 60px;
+}
+
+/* line 22, ../sass/module/_header.scss */
+.extra-shit {
+  height: 500px;
 }

@@ -1,0 +1,24 @@
+.header-video{
+    line-height: 0px;
+    video{
+       width: 100%;
+    }
+}
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.affix~.navfix-management {
+    position: relative;
+    top: 60px;
+}
+
+.extra-shit{
+    height: 500px;
+}
