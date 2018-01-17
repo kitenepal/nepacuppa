@@ -1,0 +1,37 @@
+
+
+#hero1{
+ background:url('../img/goodreading.jpg');
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+.hero, .content{
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
+
+.inner{
+  min-height:600px;
+  position: relative;
+}
+
+.hero .inner{
+  background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;}
+
+
+.copy{
+  position:absolute; 
+  top:50%; 
+  height:10em; 
+  margin-top:-5em; 
+  width:100%;
+}
+
+.hero h1, .hero p{ 
+  color:#fff;
+}
+
+

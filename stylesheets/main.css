@@ -3,13 +3,18 @@ a {
   text-decoration: none !important;
 }
 
-/* line 3, ../sass/module/_coffeeblog.scss */
+/* line 2, ../sass/module/_coffeeblog.scss */
+.coffeeblog .btn-readmore {
+  padding: 20px;
+}
+
+/* line 6, ../sass/module/_coffeeblog.scss */
 .animate {
   transition: all 0.1s;
   -webkit-transition: all 0.1s;
 }
 
-/* line 9, ../sass/module/_coffeeblog.scss */
+/* line 12, ../sass/module/_coffeeblog.scss */
 .action-button {
   padding: 10px 30px;
   border-radius: 10px;
@@ -19,16 +24,64 @@ a {
   text-decoration: none;
 }
 
-/* line 19, ../sass/module/_coffeeblog.scss */
+/* line 22, ../sass/module/_coffeeblog.scss */
+.action-button:hover {
+  color: #5e4423;
+  background-color: #e5e5e5;
+  border-bottom: 5px solid #292929;
+  text-shadow: none;
+}
+
+/* line 29, ../sass/module/_coffeeblog.scss */
 .coffee-color {
   background-color: #5e4423;
   border-bottom: 5px solid #3a2306;
   text-shadow: 0px -2px #3a2306;
 }
 
-/* line 26, ../sass/module/_coffeeblog.scss */
+/* line 36, ../sass/module/_coffeeblog.scss */
 .action-button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   border-bottom: 1px solid;
+}
+
+/* line 3, ../sass/module/_goodReading.scss */
+#hero1 {
+  background: url("../img/goodreading.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* line 10, ../sass/module/_goodReading.scss */
+.hero, .content {
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+/* line 16, ../sass/module/_goodReading.scss */
+.inner {
+  min-height: 600px;
+  position: relative;
+}
+
+/* line 21, ../sass/module/_goodReading.scss */
+.hero .inner {
+  background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+}
+
+/* line 25, ../sass/module/_goodReading.scss */
+.copy {
+  position: absolute;
+  top: 50%;
+  height: 10em;
+  margin-top: -5em;
+  width: 100%;
+}
+
+/* line 33, ../sass/module/_goodReading.scss */
+.hero h1, .hero p {
+  color: #fff;
 }

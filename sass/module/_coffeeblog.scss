@@ -1,5 +1,8 @@
-
-
+.coffeeblog{
+	.btn-readmore{
+		padding: 20px;
+	}
+}
 .animate
 {
 	transition: all 0.1s;
@@ -14,6 +17,13 @@
 	font-size: 15px;
 	color: #FFF;
 	text-decoration: none;
+}
+
+.action-button:hover{
+	color: #5e4423;
+	background-color: #e5e5e5;
+	border-bottom: 5px solid #292929;
+	text-shadow: none;
 }
 
 .coffee-color
