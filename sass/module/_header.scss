@@ -12,6 +12,10 @@
 
 .navbar {
     margin-bottom: 0px;
+    border-radius: 0 !important;
+}
+.navbar-inverse{
+    background-color: $primary-color !important;
 }
 
 .affix~.navfix-management {

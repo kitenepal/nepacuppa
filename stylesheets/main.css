@@ -109,15 +109,113 @@ a {
 /* line 13, ../sass/module/_header.scss */
 .navbar {
   margin-bottom: 0px;
+  border-radius: 0 !important;
 }
 
 /* line 17, ../sass/module/_header.scss */
+.navbar-inverse {
+  background-color: #3a2306 !important;
+}
+
+/* line 21, ../sass/module/_header.scss */
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
 }
 
-/* line 22, ../sass/module/_header.scss */
+/* line 26, ../sass/module/_header.scss */
 .extra-shit {
   height: 500px;
+}
+
+/* line 1, ../sass/module/_footer.scss */
+footer.nb-footer {
+  background: #222;
+  border-top: 4px solid #5e4423;
+}
+
+/* line 6, ../sass/module/_footer.scss */
+footer.nb-footer .about {
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 1170px;
+  text-align: center;
+}
+
+/* line 13, ../sass/module/_footer.scss */
+footer.nb-footer .about p {
+  font-size: 13px;
+  color: #999;
+  margin-top: 30px;
+}
+
+/* line 19, ../sass/module/_footer.scss */
+footer.nb-footer .about .social-media {
+  margin-top: 15px;
+}
+
+/* line 23, ../sass/module/_footer.scss */
+footer.nb-footer .about .social-media ul li a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #5e4423;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* line 34, ../sass/module/_footer.scss */
+footer.nb-footer .about .social-media ul li a:hover {
+  background: #5e4423;
+  color: #fff;
+  border-color: #5e4423;
+}
+
+/* line 40, ../sass/module/_footer.scss */
+footer.nb-footer .footer-info-single {
+  margin-top: 30px;
+}
+
+/* line 44, ../sass/module/_footer.scss */
+footer.nb-footer .footer-info-single .title {
+  color: #aaa;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-left: 4px solid #5e4423;
+  padding-left: 5px;
+}
+
+/* line 52, ../sass/module/_footer.scss */
+footer.nb-footer .footer-info-single ul li a {
+  display: block;
+  color: #aaa;
+  padding: 2px 0;
+}
+
+/* line 58, ../sass/module/_footer.scss */
+footer.nb-footer .footer-info-single ul li a:hover {
+  color: #5e4423;
+}
+
+/* line 62, ../sass/module/_footer.scss */
+footer.nb-footer .footer-info-single p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #aaa;
+}
+
+/* line 68, ../sass/module/_footer.scss */
+footer.nb-footer .copyright {
+  margin-top: 15px;
+  background: #111;
+  padding: 7px 0;
+  color: #999;
+}
+
+/* line 75, ../sass/module/_footer.scss */
+footer.nb-footer .copyright p {
+  margin: 0;
+  padding: 0;
 }
