@@ -83,17 +83,20 @@ a {
 }
 
 /* line 27, ../sass/module/_goodReading.scss */
-.copy {
-  position: absolute;
-  top: 50%;
-  height: 10em;
-  margin-top: -5em;
-  width: 100%;
-}
-
-/* line 35, ../sass/module/_goodReading.scss */
 .hero h1, .hero p {
   color: #fff;
+}
+
+/* line 30, ../sass/module/_goodReading.scss */
+.md--fsize {
+  font-size: 1.6em;
+}
+
+/* line 33, ../sass/module/_goodReading.scss */
+.carousel {
+  position: absolute !important;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* line 1, ../sass/module/_header.scss */
