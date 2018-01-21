@@ -1,9 +1,14 @@
 /* line 1, ../sass/base/_base.scss */
+body {
+  background: url("../img/shop/bg.png");
+}
+
+/* line 4, ../sass/base/_base.scss */
 a {
   text-decoration: none !important;
 }
 
-/* line 5, ../sass/base/_base.scss */
+/* line 8, ../sass/base/_base.scss */
 .section-heading {
   font-family: 'Macondo', cursive;
   margin: 15px;
@@ -12,15 +17,16 @@ a {
 /* line 2, ../sass/module/_coffeeblog.scss */
 .coffeeblog .btn-readmore {
   padding: 20px;
+  margin-bottom: 60px;
 }
 
-/* line 6, ../sass/module/_coffeeblog.scss */
+/* line 7, ../sass/module/_coffeeblog.scss */
 .animate {
   transition: all 0.1s;
   -webkit-transition: all 0.1s;
 }
 
-/* line 12, ../sass/module/_coffeeblog.scss */
+/* line 13, ../sass/module/_coffeeblog.scss */
 .action-button {
   padding: 10px 30px;
   border-radius: 10px;
@@ -30,7 +36,7 @@ a {
   text-decoration: none;
 }
 
-/* line 22, ../sass/module/_coffeeblog.scss */
+/* line 23, ../sass/module/_coffeeblog.scss */
 .action-button:hover {
   color: #5e4423;
   background-color: #e5e5e5;
@@ -38,62 +44,18 @@ a {
   text-shadow: none;
 }
 
-/* line 29, ../sass/module/_coffeeblog.scss */
+/* line 30, ../sass/module/_coffeeblog.scss */
 .coffee-color {
   background-color: #5e4423;
   border-bottom: 5px solid #3a2306;
   text-shadow: 0px -2px #3a2306;
 }
 
-/* line 36, ../sass/module/_coffeeblog.scss */
+/* line 37, ../sass/module/_coffeeblog.scss */
 .action-button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   border-bottom: 1px solid;
-}
-
-/* line 1, ../sass/module/_goodReading.scss */
-#hero1 {
-  background: url("../img/goodreading.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* line 12, ../sass/module/_goodReading.scss */
-.hero, .content {
-  text-align: center;
-  position: relative;
-  width: 100%;
-}
-
-/* line 18, ../sass/module/_goodReading.scss */
-.inner {
-  min-height: 600px;
-  position: relative;
-}
-
-/* line 23, ../sass/module/_goodReading.scss */
-.hero .inner {
-  background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
-}
-
-/* line 27, ../sass/module/_goodReading.scss */
-.copy {
-  position: absolute;
-  top: 50%;
-  height: 10em;
-  margin-top: -5em;
-  width: 100%;
-}
-
-/* line 35, ../sass/module/_goodReading.scss */
-.hero h1, .hero p {
-  color: #fff;
 }
 
 /* line 1, ../sass/module/_header.scss */
@@ -127,6 +89,39 @@ a {
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
+}
+
+/* line 1, ../sass/module/_shop.scss */
+.shop {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background: #fff;
+}
+
+/* line 7, ../sass/module/_shop.scss */
+.shop--detail {
+  color: grey;
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* line 13, ../sass/module/_shop.scss */
+.shop--contact {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #3a2306;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+/* line 26, ../sass/module/_shop.scss */
+.shop--contact:hover, a:hover {
+  opacity: 0.7;
 }
 
 /* Hover Card 
