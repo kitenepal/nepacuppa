@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Arvo");
 /* line 1, ../sass/base/_base.scss */
 body {
   background: url("../img/shop/bg.png");
@@ -167,6 +168,167 @@ a {
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
+}
+
+/* line 3, ../sass/module/_gallery.scss */
+body,
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #f5f4f4;
+  font-size: 13px;
+  font-family: 'Arvo', monospace;
+}
+@supports (display: grid) {
+  /* line 3, ../sass/module/_gallery.scss */
+  body,
+  html {
+    display: block;
+  }
+}
+
+/* line 20, ../sass/module/_gallery.scss */
+.message {
+  border: 1px solid #d2d0d0;
+  padding: 2em;
+  font-size: 1.7vw;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+}
+@supports (display: grid) {
+  /* line 20, ../sass/module/_gallery.scss */
+  .message {
+    display: none;
+  }
+}
+
+/* line 31, ../sass/module/_gallery.scss */
+.section {
+  display: none;
+  padding: 2rem;
+}
+@media screen and (min-width: 768px) {
+  /* line 31, ../sass/module/_gallery.scss */
+  .section {
+    padding: 4rem;
+  }
+}
+@supports (display: grid) {
+  /* line 31, ../sass/module/_gallery.scss */
+  .section {
+    display: block;
+  }
+}
+
+/* line 44, ../sass/module/_gallery.scss */
+h1 {
+  font-size: 2rem;
+  margin: 0 0 1.5em;
+}
+
+/* line 49, ../sass/module/_gallery.scss */
+.grid {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 150px;
+  grid-auto-flow: row dense;
+}
+
+/* line 58, ../sass/module/_gallery.scss */
+.section .item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  background: #0c9a9a;
+  color: #fff;
+  grid-column-start: auto;
+  grid-row-start: auto;
+  color: #fff;
+  background: url("https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+  background-size: cover;
+  background-position: center;
+  box-shadow: -2px 2px 10px 0px rgba(68, 68, 68, 0.4);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  counter-increment: item-counter;
+}
+/* line 77, ../sass/module/_gallery.scss */
+.section .item:nth-of-type(3n) {
+  background-image: url("https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=");
+}
+/* line 81, ../sass/module/_gallery.scss */
+.section .item:nth-of-type(4n) {
+  background-image: url("https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=");
+}
+/* line 85, ../sass/module/_gallery.scss */
+.section .item:nth-of-type(5n) {
+  background-image: url("https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+}
+/* line 89, ../sass/module/_gallery.scss */
+.section .item:nth-of-type(6n) {
+  background-image: url("https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+}
+/* line 93, ../sass/module/_gallery.scss */
+.section .item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+}
+/* line 103, ../sass/module/_gallery.scss */
+.section .item:hover {
+  transform: scale(1.04);
+}
+/* line 106, ../sass/module/_gallery.scss */
+.section .item:hover:after {
+  opacity: 0;
+}
+/* line 111, ../sass/module/_gallery.scss */
+.section .item--medium {
+  grid-row-end: span 2;
+}
+/* line 115, ../sass/module/_gallery.scss */
+.section .item--large {
+  grid-row-end: span 3;
+}
+/* line 119, ../sass/module/_gallery.scss */
+.section .item--full {
+  grid-column-end: auto;
+}
+@media screen and (min-width: 768px) {
+  /* line 119, ../sass/module/_gallery.scss */
+  .section .item--full {
+    grid-column: 1/-1;
+    grid-row-end: span 2;
+  }
+}
+/* line 128, ../sass/module/_gallery.scss */
+.section .item__details {
+  position: relative;
+  z-index: 1;
+  padding: 15px;
+  color: #444;
+  background: #fff;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  color: #828282;
+}
+/* line 138, ../sass/module/_gallery.scss */
+.section .item__details:before {
+  content: counter(item-counter);
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding-right: 0.5em;
+  color: #444;
 }
 
 /* line 1, ../sass/module/_shop.scss */
