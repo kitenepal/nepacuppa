@@ -170,20 +170,31 @@ a {
 }
 
 /* line 1, ../sass/module/_shop.scss */
+.coffeeShop {
+  background: #292929;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+/* line 5, ../sass/module/_shop.scss */
+.coffeeShop .section-heading {
+  color: #fff;
+}
+
+/* line 10, ../sass/module/_shop.scss */
 .shop {
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
   background: #fff;
 }
 
-/* line 7, ../sass/module/_shop.scss */
+/* line 16, ../sass/module/_shop.scss */
 .shop--detail {
   color: grey;
   font-size: 18px;
   padding: 10px;
 }
 
-/* line 13, ../sass/module/_shop.scss */
+/* line 22, ../sass/module/_shop.scss */
 .shop--contact {
   border: none;
   outline: 0;
@@ -197,7 +208,7 @@ a {
   font-size: 18px;
 }
 
-/* line 26, ../sass/module/_shop.scss */
+/* line 35, ../sass/module/_shop.scss */
 .shop--contact:hover, a:hover {
   transition: 0.5s;
   opacity: 0.7;
