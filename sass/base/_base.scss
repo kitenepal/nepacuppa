@@ -6,6 +6,9 @@ a{
 }
 
 .section-heading{
-	font-family: 'Macondo', cursive;
-	margin: 15px;
+	font-family: $primary-font;
+}
+
+.heading-margin{
+	margin: $heading-margin;
 }

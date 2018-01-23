@@ -11,8 +11,12 @@ a {
 
 /* line 8, ../sass/base/_base.scss */
 .section-heading {
-  font-family: 'Macondo', cursive;
-  margin: 15px;
+  font-family: "Macondo", cursive;
+}
+
+/* line 12, ../sass/base/_base.scss */
+.heading-margin {
+  margin: 40px;
 }
 
 /* line 2, ../sass/module/_coffeeblog.scss */
