@@ -101,61 +101,55 @@ a {
 
 /* line 12, ../sass/module/_goodReading.scss */
 .hero, .content {
-  text-align: center;
   position: relative;
   width: 100%;
 }
 
-/* line 18, ../sass/module/_goodReading.scss */
+/* line 17, ../sass/module/_goodReading.scss */
 .inner {
-  min-height: 600px;
+  min-height: 400px;
   position: relative;
 }
 
-/* line 23, ../sass/module/_goodReading.scss */
+/* line 22, ../sass/module/_goodReading.scss */
 .hero .inner {
   background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
   overflow: hidden;
 }
 
-/* line 28, ../sass/module/_goodReading.scss */
-.hero h1, .hero p {
+/* line 27, ../sass/module/_goodReading.scss */
+.hero h3, .hero p {
   color: #fff;
 }
 
-/* line 31, ../sass/module/_goodReading.scss */
+/* line 30, ../sass/module/_goodReading.scss */
 .carousel {
   position: absolute !important;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 36, ../sass/module/_goodReading.scss */
-.md--reading {
-  font-size: 1.7em;
-}
-
 @media screen and (max-width: 1000px) {
-  /* line 41, ../sass/module/_goodReading.scss */
+  /* line 40, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1.5em;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 47, ../sass/module/_goodReading.scss */
+  /* line 46, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1.3em;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 53, ../sass/module/_goodReading.scss */
+  /* line 52, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1.2em;
     line-height: 1.1em;
   }
 }
 @media screen and (max-width: 350px) {
-  /* line 60, ../sass/module/_goodReading.scss */
+  /* line 59, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1em;
     line-height: 1em;
