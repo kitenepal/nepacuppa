@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 @import url("https://fonts.googleapis.com/css?family=Arvo");
 /* line 1, ../sass/base/_base.scss */
 body {
@@ -11,7 +13,7 @@ a {
 
 /* line 8, ../sass/base/_base.scss */
 .section-heading {
-  font-family: "Macondo", cursive;
+  font-family: "Pacifico", cursive;
 }
 
 /* line 12, ../sass/base/_base.scss */
@@ -152,25 +154,34 @@ a {
   width: 100%;
 }
 
-/* line 7, ../sass/module/_header.scss */
+/* line 8, ../sass/module/_header.scss */
 .affix {
   top: 0;
   width: 100%;
   z-index: 9999 !important;
 }
 
-/* line 13, ../sass/module/_header.scss */
+/* line 14, ../sass/module/_header.scss */
 .navbar {
   margin-bottom: 0px;
   border-radius: 0 !important;
 }
-
 /* line 17, ../sass/module/_header.scss */
+.navbar-brand {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white !important;
+}
+/* line 21, ../sass/module/_header.scss */
 .navbar-inverse {
-  background-color: #3a2306 !important;
+  background-color: #311b0e !important;
+}
+/* line 23, ../sass/module/_header.scss */
+.navbar-inverse li a {
+  font-family: "Roboto Condensed", sans-serif;
+  color: white !important;
 }
 
-/* line 21, ../sass/module/_header.scss */
+/* line 30, ../sass/module/_header.scss */
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
@@ -369,7 +380,7 @@ h1 {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #3a2306;
+  background-color: #311b0e;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -494,7 +505,7 @@ div.startingPrice {
   text-decoration: none !important;
   text-transform: uppercase !important;
   letter-spacing: 0 !important;
-  background: #3a2306;
+  background: #311b0e;
   border: none;
   border-bottom: solid 5px #5e4423;
   text-align: center;
@@ -633,7 +644,7 @@ footer.nb-footer .footer-info-single p {
 /* line 92, ../sass/module/_footer.scss */
 footer.nb-footer .copyright {
   margin-top: 15px;
-  background: #3a2306;
+  background: #311b0e;
   padding: 7px 0;
   color: #fff;
 }

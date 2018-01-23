@@ -1,25 +1,33 @@
-.header-video{
-    line-height: 0px;
-    video{
-       width: 100%;
-    }
-}
-.affix {
-    top: 0;
+.header-video {
+  line-height: 0px;
+  video {
     width: 100%;
-    z-index: 9999 !important;
+  }
+}
+
+.affix {
+  top: 0;
+  width: 100%;
+  z-index: 9999 !important;
 }
 
 .navbar {
-    margin-bottom: 0px;
-    border-radius: 0 !important;
-}
-.navbar-inverse{
+  margin-bottom: 0px;
+  border-radius: 0 !important;
+  &-brand {
+    font-family: $secondary-font;
+    color: white !important;
+  }
+  &-inverse {
     background-color: $primary-color !important;
+    li a {
+      font-family: $secondary-font;
+      color: white !important;
+    }
+  }
 }
 
 .affix~.navfix-management {
-    position: relative;
-    top: 60px;
+  position: relative;
+  top: 60px;
 }
-
