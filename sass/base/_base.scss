@@ -12,3 +12,11 @@ a{
 .heading-margin{
 	margin: $heading-margin;
 }
+
+.textshadow-light{
+	text-shadow: 2px 1px $faded-primary;
+}
+
+.textshadow-dark{
+	text-shadow: 2px 1px $primary-color;
+}
