@@ -338,7 +338,7 @@ a {
 
 /* line 1, ../sass/module/_shop.scss */
 .coffeeShop {
-  background: #292929;
+  background: #311b0e;
   padding-top: 20px;
   padding-bottom: 30px;
 }
@@ -357,25 +357,31 @@ a {
 /* line 16, ../sass/module/_shop.scss */
 .shop--detail {
   color: grey;
-  font-size: 18px;
   padding: 10px;
 }
 
-/* line 22, ../sass/module/_shop.scss */
+/* line 21, ../sass/module/_shop.scss */
 .shop--contact {
   border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #311b0e;
+  background-color: #5e4423;
   text-align: center;
   cursor: pointer;
   width: 100%;
+  font-family: "Pacifico", cursive;
   font-size: 18px;
 }
 
 /* line 35, ../sass/module/_shop.scss */
+.shop--contact:hover {
+  background-color: #c2a96f;
+  color: #311b0e;
+}
+
+/* line 40, ../sass/module/_shop.scss */
 .shop--contact:hover, a:hover {
   transition: 0.5s;
   opacity: 0.7;
@@ -390,7 +396,7 @@ a {
 .......................................................................*/
 /* line 7, ../sass/module/_beans.scss */
 div.catCard {
-  border: solid 5px #e9e9e9;
+  border: solid 2px #c2a96f;
   background: #d8d8d8;
   height: 400px;
   display: block;
@@ -401,7 +407,7 @@ div.catCard {
 /* line 15, ../sass/module/_beans.scss */
 div.lowerCatCard {
   position: absolute;
-  background: #e9e9e9;
+  background: white;
   padding: 5px 5px;
   height: 200px;
   -webkit-transition: all 0.6s ease;
@@ -492,11 +498,11 @@ div.startingPrice {
 /* line 81, ../sass/module/_beans.scss */
 .beans-btn {
   cursor: pointer;
-  font-size: 14px !important;
+  font-family: "Pacifico", cursive;
+  font-size: 16px !important;
   color: #ffffff;
-  padding: 7px 10px !important;
+  padding: 7px 0px !important;
   text-decoration: none !important;
-  text-transform: uppercase !important;
   letter-spacing: 0 !important;
   background: #311b0e;
   border: none;
@@ -505,32 +511,27 @@ div.startingPrice {
   margin-top: 10px;
 }
 
-/* line 95, ../sass/module/_beans.scss */
+/* line 96, ../sass/module/_beans.scss */
 .beans-btn:hover {
   background-color: #5e4423;
   border: none;
   border-bottom: solid 1px #000;
   box-shadow: 0 2px 3px #a8a8a8;
-  transform: scale(1.04);
-  -webkit-transform: scale(1.04);
-  -moz-transform: scale(1.04);
-  -o-transform: scale(1.04);
-  -ms-transform: scale(1.04);
 }
 
-/* line 107, ../sass/module/_beans.scss */
+/* line 103, ../sass/module/_beans.scss */
 .beans-btn a {
   color: #ffffff;
   padding: 7px 30px !important;
   text-decoration: none;
 }
 
-/* line 112, ../sass/module/_beans.scss */
+/* line 108, ../sass/module/_beans.scss */
 .beans-btn a:hover {
   color: #ffffff;
 }
 
-/* line 115, ../sass/module/_beans.scss */
+/* line 111, ../sass/module/_beans.scss */
 .beans-btn:hover {
   color: #fff;
 }
