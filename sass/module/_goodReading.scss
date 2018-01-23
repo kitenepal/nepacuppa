@@ -10,13 +10,12 @@
 }
 
 .hero, .content{
-  text-align:center; 
   position:relative;
   width: 100%;
 }
 
 .inner{
-  min-height:600px;
+  min-height:400px;
   position: relative;
 }
 
@@ -25,7 +24,7 @@
   overflow: hidden;
 }
 
-.hero h1, .hero p{ 
+.hero h3, .hero p{ 
   color:#fff;
 }
 .carousel{
@@ -34,7 +33,7 @@
   transform: translateY(-50%);
 }
 .md--reading{
-  font-size: 1.7em;
+
 }
 
 @media screen and (max-width: 1000px) {
