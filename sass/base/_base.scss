@@ -5,6 +5,7 @@ a{
 	text-decoration: none !important;
 }
 
+//Margins
 .section-heading{
 	font-family: $primary-font;
 }
@@ -13,10 +14,42 @@ a{
 	margin: $heading-margin;
 }
 
+
+//Shadows
 .textshadow-light{
 	text-shadow: 2px 1px $faded-primary;
 }
 
 .textshadow-dark{
 	text-shadow: 2px 1px $primary-color;
+}
+
+//buttons
+.btn-readmore{
+	padding: 10px;
+	margin: 20px 0px 60px 0px;
+}
+
+.action-button
+{
+	padding: 8px 25px;
+	border-radius: 10px;
+	font-family: $primary-font;
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.action-button:hover{
+	color: white;
+	background-color: $secondary-color;
+	border-bottom: 5px solid #292929;
+	text-shadow: none;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
 }

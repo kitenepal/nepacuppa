@@ -1,8 +1,4 @@
 .coffeeblog{
-	.btn-readmore{
-		padding: 20px;
-		margin-bottom: 60px;
-	}
 	.thumbnail:hover{
 		box-shadow: 0px 5px 20px 5px gray;
 		transition: 0.8s;
@@ -15,33 +11,9 @@
 	-webkit-transition: all 0.1s;
 }
 
-.action-button
-{
-	padding: 10px 30px;
-	border-radius: 10px;
-	font-family: 'Pacifico', cursive;
-	font-size: 15px;
-	color: #FFF;
-	text-decoration: none;
-}
-
-.action-button:hover{
-	color: #5e4423;
-	background-color: #e5e5e5;
-	border-bottom: 5px solid #292929;
-	text-shadow: none;
-}
-
 .coffee-color
 {
 	background-color: #5e4423;
 	border-bottom: 5px solid #3a2306;
 	text-shadow: 0px -2px #3a2306;
-}
-
-.action-button:active
-{
-	transform: translate(0px,5px);
-  -webkit-transform: translate(0px,5px);
-	border-bottom: 1px solid;
 }
