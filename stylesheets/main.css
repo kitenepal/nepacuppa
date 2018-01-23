@@ -21,23 +21,28 @@ a {
   margin: 40px;
 }
 
-/* line 19, ../sass/base/_base.scss */
+/* line 17, ../sass/base/_base.scss */
+.extra-margin {
+  margin: 80px;
+}
+
+/* line 22, ../sass/base/_base.scss */
 .textshadow-light {
   text-shadow: 2px 1px #c2a96f;
 }
 
-/* line 23, ../sass/base/_base.scss */
+/* line 26, ../sass/base/_base.scss */
 .textshadow-dark {
   text-shadow: 2px 1px #311b0e;
 }
 
-/* line 28, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 .btn-readmore {
   padding: 10px;
   margin: 20px 0px 60px 0px;
 }
 
-/* line 33, ../sass/base/_base.scss */
+/* line 36, ../sass/base/_base.scss */
 .action-button {
   padding: 8px 25px;
   border-radius: 10px;
@@ -47,7 +52,7 @@ a {
   text-decoration: none;
 }
 
-/* line 43, ../sass/base/_base.scss */
+/* line 46, ../sass/base/_base.scss */
 .action-button:hover {
   color: white;
   background-color: #5e4423;
@@ -55,7 +60,7 @@ a {
   text-shadow: none;
 }
 
-/* line 50, ../sass/base/_base.scss */
+/* line 53, ../sass/base/_base.scss */
 .action-button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
@@ -231,12 +236,6 @@ a {
 }
 
 /* line 27, ../sass/module/_gallery.scss */
-h1 {
-  font-size: 2rem;
-  margin: 0 0 1.5em;
-}
-
-/* line 32, ../sass/module/_gallery.scss */
 .grid {
   display: grid;
   grid-gap: 30px;
@@ -245,7 +244,7 @@ h1 {
   grid-auto-flow: row dense;
 }
 
-/* line 41, ../sass/module/_gallery.scss */
+/* line 36, ../sass/module/_gallery.scss */
 .gallery .item {
   position: relative;
   display: flex;
@@ -266,23 +265,23 @@ h1 {
   counter-increment: item-counter;
   overflow: hidden;
 }
-/* line 61, ../sass/module/_gallery.scss */
+/* line 56, ../sass/module/_gallery.scss */
 .gallery .item:nth-of-type(3n) {
   background-image: url("https://images.unsplash.com/photo-1422255198496-21531f12a6e8?dpr=2&auto=format&fit=crop&w=1500&h=996&q=80&cs=tinysrgb&crop=");
 }
-/* line 65, ../sass/module/_gallery.scss */
+/* line 60, ../sass/module/_gallery.scss */
 .gallery .item:nth-of-type(4n) {
   background-image: url("https://images.unsplash.com/photo-1490914327627-9fe8d52f4d90?dpr=2&auto=format&fit=crop&w=1500&h=2250&q=80&cs=tinysrgb&crop=");
 }
-/* line 69, ../sass/module/_gallery.scss */
+/* line 64, ../sass/module/_gallery.scss */
 .gallery .item:nth-of-type(5n) {
   background-image: url("https://images.unsplash.com/photo-1476097297040-79e9e1603142?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
 }
-/* line 73, ../sass/module/_gallery.scss */
+/* line 68, ../sass/module/_gallery.scss */
 .gallery .item:nth-of-type(6n) {
   background-image: url("https://images.unsplash.com/photo-1464652149449-f3b8538144aa?dpr=2&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
 }
-/* line 77, ../sass/module/_gallery.scss */
+/* line 72, ../sass/module/_gallery.scss */
 .gallery .item:after {
   content: '';
   position: absolute;
@@ -290,34 +289,34 @@ h1 {
   height: 100%;
   transition: opacity 0.3s ease-in-out;
 }
-/* line 85, ../sass/module/_gallery.scss */
+/* line 80, ../sass/module/_gallery.scss */
 .gallery .item:hover {
   transform: scale(1.04);
 }
-/* line 87, ../sass/module/_gallery.scss */
+/* line 82, ../sass/module/_gallery.scss */
 .gallery .item:hover:after {
   opacity: 0;
 }
-/* line 92, ../sass/module/_gallery.scss */
+/* line 87, ../sass/module/_gallery.scss */
 .gallery .item--medium {
   grid-row-end: span 2;
 }
-/* line 96, ../sass/module/_gallery.scss */
+/* line 91, ../sass/module/_gallery.scss */
 .gallery .item--large {
   grid-row-end: span 3;
 }
-/* line 100, ../sass/module/_gallery.scss */
+/* line 95, ../sass/module/_gallery.scss */
 .gallery .item--full {
   grid-column-end: auto;
 }
 @media screen and (min-width: 768px) {
-  /* line 100, ../sass/module/_gallery.scss */
+  /* line 95, ../sass/module/_gallery.scss */
   .gallery .item--full {
     grid-column: 1/-1;
     grid-row-end: span 2;
   }
 }
-/* line 109, ../sass/module/_gallery.scss */
+/* line 104, ../sass/module/_gallery.scss */
 .gallery .item__details {
   position: relative;
   z-index: 1;
@@ -328,7 +327,7 @@ h1 {
   letter-spacing: 1px;
   color: #828282;
 }
-/* line 119, ../sass/module/_gallery.scss */
+/* line 114, ../sass/module/_gallery.scss */
 .gallery .item__details:before {
   content: counter(item-counter);
   font-weight: bold;

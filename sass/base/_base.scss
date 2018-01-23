@@ -14,6 +14,9 @@ a{
 	margin: $heading-margin;
 }
 
+.extra-margin{
+	margin: $heading-margin+40;
+}
 
 //Shadows
 .textshadow-light{
