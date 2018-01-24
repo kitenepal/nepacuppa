@@ -121,6 +121,82 @@ a {
   background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
   overflow: hidden;
 }
+
+/* line 26, ../sass/module/_goodReading.scss */
+.hero p {
+  color: #fff;
+}
+
+/* line 30, ../sass/module/_goodReading.scss */
+.carousel-indicators .active {
+  background: #31708f;
+}
+
+/* line 34, ../sass/module/_goodReading.scss */
+.adjust1 {
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+/* line 40, ../sass/module/_goodReading.scss */
+.adjust2 {
+  margin: 0;
+}
+
+/* line 44, ../sass/module/_goodReading.scss */
+.carousel-indicators li {
+  border: 1px solid #ccc;
+}
+
+/* line 48, ../sass/module/_goodReading.scss */
+.carousel-control {
+  color: #31708f;
+  width: 5%;
+}
+
+/* line 53, ../sass/module/_goodReading.scss */
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #31708f;
+}
+
+/* line 58, ../sass/module/_goodReading.scss */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/* line 63, ../sass/module/_goodReading.scss */
+.media-object {
+  margin: auto;
+  margin-top: 15%;
+}
+
+/* line 67, ../sass/module/_goodReading.scss */
+.fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  z-index: 5;
+  display: inline-block;
+}
+
+/* line 74, ../sass/module/_goodReading.scss */
+.fa-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z-index: 5;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 82, ../sass/module/_goodReading.scss */
+  .media-object {
+    margin-top: 0;
+  }
+}
 /* line 1, ../sass/module/_header.scss */
 .header-video {
   line-height: 0px;
@@ -261,18 +337,45 @@ a {
 /* line 10, ../sass/module/_shop.scss */
 .shop {
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
   background: #fff;
   margin-bottom: 40px;
 }
-
+/* line 14, ../sass/module/_shop.scss */
+.shop h3 {
+  padding-left: 20px;
+}
 /* line 17, ../sass/module/_shop.scss */
-.shop--detail {
-  color: grey;
-  padding: 10px;
+.shop ul {
+  list-style-type: none;
+  padding-left: 20px;
+  line-height: 2em;
+}
+/* line 21, ../sass/module/_shop.scss */
+.shop ul button {
+  margin-top: 5px;
+  border-top-right-radius: 10px;
+  text-decoration: none;
+  outline: none;
+  background: #311b0e;
+  border: 0;
+  color: #fff;
+  padding: 0px 8px 0px 8px;
+  border: 1px solid #000;
+  transition: 0.2s;
+}
+/* line 33, ../sass/module/_shop.scss */
+.shop ul button:hover {
+  background: #fff;
+  border: 1px solid #000;
+  color: #311b0e;
 }
 
-/* line 22, ../sass/module/_shop.scss */
+/* line 41, ../sass/module/_shop.scss */
+.shop--detail {
+  color: grey;
+}
+
+/* line 45, ../sass/module/_shop.scss */
 .shop--contact {
   border: none;
   outline: 0;
@@ -287,13 +390,13 @@ a {
   font-size: 18px;
 }
 
-/* line 36, ../sass/module/_shop.scss */
+/* line 59, ../sass/module/_shop.scss */
 .shop--contact:hover {
   background-color: #c2a96f;
   color: #311b0e;
 }
 
-/* line 41, ../sass/module/_shop.scss */
+/* line 64, ../sass/module/_shop.scss */
 .shop--contact:hover, a:hover {
   transition: 0.5s;
   opacity: 0.7;
@@ -577,78 +680,3 @@ footer.nb-footer .copyright p {
   margin: 0;
   padding: 0;
 }
-/* line 26, ../sass/module/_goodReading.scss */
-.hero p {
-  color: #fff;
-}
-
-/* line 30, ../sass/module/_goodReading.scss */
-.carousel-indicators .active {
-  background: #31708f;
-}
-
-/* line 34, ../sass/module/_goodReading.scss */
-.adjust1 {
-  float: left;
-  width: 100%;
-  margin-bottom: 0;
-}
-
-/* line 40, ../sass/module/_goodReading.scss */
-.adjust2 {
-  margin: 0;
-}
-
-/* line 44, ../sass/module/_goodReading.scss */
-.carousel-indicators li {
-  border: 1px solid #ccc;
-}
-
-/* line 48, ../sass/module/_goodReading.scss */
-.carousel-control {
-  color: #31708f;
-  width: 5%;
-}
-
-/* line 53, ../sass/module/_goodReading.scss */
-.carousel-control:hover,
-.carousel-control:focus {
-  color: #31708f;
-}
-
-/* line 58, ../sass/module/_goodReading.scss */
-.carousel-control.left,
-.carousel-control.right {
-  background-image: none;
-}
-
-/* line 63, ../sass/module/_goodReading.scss */
-.media-object {
-  margin: auto;
-  margin-top: 15%;
-}
-/* line 67, ../sass/module/_goodReading.scss */
-.fa-arrow-right {
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  z-index: 5;
-  display: inline-block;
-}
-
-/* line 74, ../sass/module/_goodReading.scss */
-.fa-arrow-left {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  z-index: 5;
-  display: inline-block;
-}
-
-@media screen and (max-width: 768px) {
-  /* line 82, ../sass/module/_goodReading.scss */
-  .media-object {
-    margin-top: 0;
-  }
-}
-

@@ -9,14 +9,37 @@
 
 .shop {
   box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.2);
-  text-align: center;
   background: #fff;
   margin-bottom: 40px;
+  h3{
+    padding-left: 20px;
+  }
+  ul{
+    list-style-type: none;
+    padding-left: 20px;
+    line-height: 2em;
+    button{
+      margin-top: 5px;
+      border-top-right-radius: 10px;
+      text-decoration: none;
+      outline: none;
+      background: $primary-color;
+      border: 0;
+      color: #fff;
+      padding: 0px 8px 0px 8px;
+      border: 1px solid #000;
+      transition: 0.2s;
+    }
+    button:hover{
+      background: #fff;
+      border: 1px solid #000;
+      color: $primary-color;
+    }
+  }
 }
 
-.shop--detail {
+.shop--detail{
   color: grey;
-  padding: 10px;
 }
 
 .shop--contact {
