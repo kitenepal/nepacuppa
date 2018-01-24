@@ -68,19 +68,22 @@ a {
 }
 
 /* line 2, ../sass/module/_coffeeblog.scss */
+.coffeeblog .thumbnail {
+  transition: all 0.3s ease-in-out;
+}
+/* line 5, ../sass/module/_coffeeblog.scss */
 .coffeeblog .thumbnail:hover {
   box-shadow: 0px 5px 20px 5px gray;
-  transition: 0.8s;
   transform: scale(1.02);
 }
 
-/* line 8, ../sass/module/_coffeeblog.scss */
+/* line 10, ../sass/module/_coffeeblog.scss */
 .animate {
-  transition: all 0.1s;
+  transition: all 0.1s ease-in-out;
   -webkit-transition: all 0.1s;
 }
 
-/* line 14, ../sass/module/_coffeeblog.scss */
+/* line 16, ../sass/module/_coffeeblog.scss */
 .coffee-color {
   background-color: #5e4423;
   border-bottom: 5px solid #3a2306;
@@ -387,9 +390,14 @@ a {
   padding: 20px;
 }
 
+/* line 5, ../sass/module/_beans.scss */
+.beans-contain {
+  margin-bottom: 40px;
+}
+
 /* Hover Card 
 .......................................................................*/
-/* line 7, ../sass/module/_beans.scss */
+/* line 11, ../sass/module/_beans.scss */
 div.catCard {
   border: solid 2px #c2a96f;
   background: #d8d8d8;
@@ -399,7 +407,7 @@ div.catCard {
   overflow: hidden;
 }
 
-/* line 15, ../sass/module/_beans.scss */
+/* line 19, ../sass/module/_beans.scss */
 div.lowerCatCard {
   position: absolute;
   background: white;
@@ -409,49 +417,49 @@ div.lowerCatCard {
   -o-transition: all 0.6s ease;
   transition: all 0.6s ease;
 }
-/* line 23, ../sass/module/_beans.scss */
+/* line 27, ../sass/module/_beans.scss */
 div.lowerCatCard h3, div.lowerCatCard p {
   padding-left: 5px;
 }
 
-/* line 27, ../sass/module/_beans.scss */
+/* line 31, ../sass/module/_beans.scss */
 div.lowerCatCard:hover {
   opacity: 0.95;
   bottom: 0;
   height: 395px;
 }
 
-/* line 32, ../sass/module/_beans.scss */
+/* line 36, ../sass/module/_beans.scss */
 div.catCard div.lowerCatCard {
   left: 0;
   bottom: -3%;
 }
 
-/* line 36, ../sass/module/_beans.scss */
+/* line 40, ../sass/module/_beans.scss */
 div.catCard:hover div.lowerCatCard {
   bottom: 0;
 }
 
-/* line 39, ../sass/module/_beans.scss */
+/* line 43, ../sass/module/_beans.scss */
 li.catCardList {
   list-style-type: none;
   display: block;
   margin-top: 25px;
 }
 
-/* line 44, ../sass/module/_beans.scss */
+/* line 48, ../sass/module/_beans.scss */
 li.catCardList-last {
   margin-right: 0;
   width: 225px;
   display: inline-block;
 }
 
-/* line 49, ../sass/module/_beans.scss */
+/* line 53, ../sass/module/_beans.scss */
 ul.catCardList {
   padding: 10px;
 }
 
-/* line 52, ../sass/module/_beans.scss */
+/* line 56, ../sass/module/_beans.scss */
 #catCardButton {
   position: absolute;
   width: 100%;
@@ -461,44 +469,44 @@ ul.catCardList {
   -o-transition: all 0.6s ease;
 }
 
-/* line 60, ../sass/module/_beans.scss */
+/* line 64, ../sass/module/_beans.scss */
 div.lowerCatCard:hover #catCardButton {
   bottom: 5px;
 }
 
-/* line 63, ../sass/module/_beans.scss */
+/* line 67, ../sass/module/_beans.scss */
 .startingPrice span {
   font-size: 16px;
   color: #c90c12;
   font-weight: 300;
 }
 
-/* line 68, ../sass/module/_beans.scss */
+/* line 72, ../sass/module/_beans.scss */
 div.startingPrice {
   margin-bottom: 5px;
   color: #000;
   font-weight: 300;
 }
 
-/* line 73, ../sass/module/_beans.scss */
+/* line 77, ../sass/module/_beans.scss */
 div.startingPrice {
   padding-left: 5px;
 }
 
-/* line 77, ../sass/module/_beans.scss */
+/* line 81, ../sass/module/_beans.scss */
 .catCard img {
   border: 1px solid #dddddd;
   width: 100%;
 }
 
-/* line 81, ../sass/module/_beans.scss */
+/* line 85, ../sass/module/_beans.scss */
 .catCard img:hover {
   border: 1px solid #bababa;
 }
 
 /* Button 
 .......................................................................*/
-/* line 87, ../sass/module/_beans.scss */
+/* line 91, ../sass/module/_beans.scss */
 .beans-btn {
   cursor: pointer;
   font-family: "Pacifico", cursive;
@@ -514,7 +522,7 @@ div.startingPrice {
   margin-top: 10px;
 }
 
-/* line 102, ../sass/module/_beans.scss */
+/* line 106, ../sass/module/_beans.scss */
 .beans-btn:hover {
   background-color: #5e4423;
   border: none;
@@ -522,19 +530,19 @@ div.startingPrice {
   box-shadow: 0 2px 3px #a8a8a8;
 }
 
-/* line 109, ../sass/module/_beans.scss */
+/* line 113, ../sass/module/_beans.scss */
 .beans-btn a {
   color: #ffffff;
   padding: 7px 30px !important;
   text-decoration: none;
 }
 
-/* line 114, ../sass/module/_beans.scss */
+/* line 118, ../sass/module/_beans.scss */
 .beans-btn a:hover {
   color: #ffffff;
 }
 
-/* line 117, ../sass/module/_beans.scss */
+/* line 121, ../sass/module/_beans.scss */
 .beans-btn:hover {
   color: #fff;
 }
