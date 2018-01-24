@@ -78,9 +78,24 @@
   z-index: 5;
   display: inline-block;
 }
+
+.maintain-text{
+  padding-top: 10px;
+}
 @media screen and (max-width: 768px) {
   .media-object {
     margin-top: 0;
+  }
+  .maintain-text{
+  padding-top: 0px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .md--testa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
   }
 }
 
