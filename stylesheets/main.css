@@ -51,20 +51,23 @@ a {
   color: #FFF;
   text-decoration: none;
 }
-
-/* line 46, ../sass/base/_base.scss */
+/* line 44, ../sass/base/_base.scss */
 .action-button:hover {
   color: white;
   background-color: #5e4423;
   border-bottom: 5px solid #292929;
   text-shadow: none;
 }
-
-/* line 53, ../sass/base/_base.scss */
+/* line 50, ../sass/base/_base.scss */
 .action-button:active {
   transform: translate(0px, 5px);
   -webkit-transform: translate(0px, 5px);
   border-bottom: 1px solid;
+}
+/* line 55, ../sass/base/_base.scss */
+.action-button:focus {
+  color: white;
+  background-color: #5e4423;
 }
 
 /* line 2, ../sass/module/_coffeeblog.scss */
@@ -133,26 +136,26 @@ a {
 }
 
 @media screen and (max-width: 1000px) {
-  /* line 40, ../sass/module/_goodReading.scss */
+  /* line 41, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1.5em;
   }
 }
 @media screen and (max-width: 700px) {
-  /* line 46, ../sass/module/_goodReading.scss */
+  /* line 47, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1.3em;
   }
 }
 @media screen and (max-width: 500px) {
-  /* line 52, ../sass/module/_goodReading.scss */
+  /* line 53, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1.2em;
     line-height: 1.1em;
   }
 }
 @media screen and (max-width: 350px) {
-  /* line 59, ../sass/module/_goodReading.scss */
+  /* line 60, ../sass/module/_goodReading.scss */
   .md--reading {
     font-size: 1em;
     line-height: 1em;
