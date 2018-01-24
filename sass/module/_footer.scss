@@ -1,3 +1,6 @@
+footer.nb-footer .footer-contain{
+    padding-top: 20px;
+}
 footer.nb-footer {
     background: #222;
     border-top: 4px solid $secondary-color;
@@ -27,7 +30,7 @@ footer.nb-footer .about .social-media ul li a {
     line-height: 45px;
     border-radius: 50%;
     font-size: 16px;
-    color: $secondary-color;
+    color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
