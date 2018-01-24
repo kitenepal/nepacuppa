@@ -123,42 +123,79 @@ a {
   overflow: hidden;
 }
 
-/* line 27, ../sass/module/_goodReading.scss */
-.hero h3, .hero p {
+/* line 26, ../sass/module/_goodReading.scss */
+.hero p {
   color: #fff;
 }
 
 /* line 30, ../sass/module/_goodReading.scss */
-.carousel {
-  position: absolute !important;
-  top: 50%;
-  transform: translateY(-50%);
+.carousel-indicators .active {
+  background: #31708f;
 }
 
-@media screen and (max-width: 1000px) {
-  /* line 41, ../sass/module/_goodReading.scss */
-  .md--reading {
-    font-size: 1.5em;
-  }
+/* line 34, ../sass/module/_goodReading.scss */
+.adjust1 {
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
 }
-@media screen and (max-width: 700px) {
-  /* line 47, ../sass/module/_goodReading.scss */
-  .md--reading {
-    font-size: 1.3em;
-  }
+
+/* line 40, ../sass/module/_goodReading.scss */
+.adjust2 {
+  margin: 0;
 }
-@media screen and (max-width: 500px) {
-  /* line 53, ../sass/module/_goodReading.scss */
-  .md--reading {
-    font-size: 1.2em;
-    line-height: 1.1em;
-  }
+
+/* line 44, ../sass/module/_goodReading.scss */
+.carousel-indicators li {
+  border: 1px solid #ccc;
 }
-@media screen and (max-width: 350px) {
-  /* line 60, ../sass/module/_goodReading.scss */
-  .md--reading {
-    font-size: 1em;
-    line-height: 1em;
+
+/* line 48, ../sass/module/_goodReading.scss */
+.carousel-control {
+  color: #31708f;
+  width: 5%;
+}
+
+/* line 53, ../sass/module/_goodReading.scss */
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #31708f;
+}
+
+/* line 58, ../sass/module/_goodReading.scss */
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+/* line 63, ../sass/module/_goodReading.scss */
+.media-object {
+  margin: auto;
+  margin-top: 15%;
+}
+
+/* line 67, ../sass/module/_goodReading.scss */
+.fa-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  z-index: 5;
+  display: inline-block;
+}
+
+/* line 74, ../sass/module/_goodReading.scss */
+.fa-arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z-index: 5;
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 82, ../sass/module/_goodReading.scss */
+  .media-object {
+    margin-top: 0;
   }
 }
 /* line 1, ../sass/module/_header.scss */

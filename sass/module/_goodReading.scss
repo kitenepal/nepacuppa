@@ -23,42 +23,64 @@
   background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
   overflow: hidden;
 }
-
-.hero h3, .hero p{ 
-  color:#fff;
+.hero p{
+  color: #fff;
 }
-.carousel{
-  position: absolute !important;
+
+.carousel-indicators .active {
+    background: #31708f;
+}
+
+.adjust1 {
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.adjust2 {
+  margin: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid #ccc;
+}
+
+.carousel-control {
+  color: #31708f;
+  width: 5%;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: #31708f;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
+.media-object {
+  margin: auto;
+  margin-top: 15%;
+}
+.fa-arrow-right{
+  position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  right: 0%;
+  z-index: 5;
+  display: inline-block;
 }
-
-.md--reading{
-
+.fa-arrow-left{
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z-index: 5;
+  display: inline-block;
 }
-
-@media screen and (max-width: 1000px) {
-  .md--reading{
-    font-size: 1.5em;
+@media screen and (max-width: 768px) {
+  .media-object {
+    margin-top: 0;
   }
 }
 
-@media screen and (max-width: 700px){
-  .md--reading{
-    font-size: 1.3em;
-  }
-}
-
-@media screen and (max-width: 500px){
-  .md--reading{
-    font-size: 1.2em;
-    line-height: 1.1em;
-  }
-}
-
-@media screen and (max-width: 350px){
-  .md--reading{
-    font-size: 1em;
-    line-height: 1em;
-  }
-}
