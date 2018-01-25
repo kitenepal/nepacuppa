@@ -234,6 +234,11 @@ p, li {
   top: 60px;
 }
 
+/* line 71, ../sass/module/_header.scss */
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  background-color: #5e4423 !important;
+}
+
 /* line 1, ../sass/module/_gallery.scss */
 .gallery {
   -webkit-column-count: 3;
