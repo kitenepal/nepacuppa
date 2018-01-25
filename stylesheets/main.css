@@ -174,22 +174,41 @@ p, li {
   margin-bottom: 0px;
   border-radius: 0 !important;
 }
-/* line 17, ../sass/module/_header.scss */
+/* line 19, ../sass/module/_header.scss */
+.navbar-nav .open a:hover {
+  background-color: #5e4423 !important;
+  color: white !important;
+}
+/* line 23, ../sass/module/_header.scss */
+.navbar-nav .open a:focus {
+  background-color: #5e4423;
+  color: white !important;
+}
+/* line 29, ../sass/module/_header.scss */
 .navbar-brand {
   font-family: "Roboto Condensed", sans-serif;
   color: white !important;
 }
-/* line 21, ../sass/module/_header.scss */
+/* line 33, ../sass/module/_header.scss */
 .navbar-inverse {
   background-color: #311b0e !important;
 }
-/* line 23, ../sass/module/_header.scss */
+/* line 35, ../sass/module/_header.scss */
 .navbar-inverse li a {
   font-family: "Roboto Condensed", sans-serif;
   color: white !important;
 }
+/* line 42, ../sass/module/_header.scss */
+.navbar .dropdown-menu a {
+  color: #311b0e !important;
+}
+/* line 45, ../sass/module/_header.scss */
+.navbar .dropdown-menu a:hover {
+  color: #c2a96f !important;
+  background-color: #311b0e !important;
+}
 
-/* line 30, ../sass/module/_header.scss */
+/* line 53, ../sass/module/_header.scss */
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;

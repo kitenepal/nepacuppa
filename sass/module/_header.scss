@@ -14,6 +14,18 @@
 .navbar {
   margin-bottom: 0px;
   border-radius: 0 !important;
+  &-nav{
+    .open{
+      a:hover{
+        background-color: $secondary-color !important;
+        color: white !important;
+      }
+      a:focus{
+        background-color: $secondary-color;
+        color: white !important;
+      }
+    }
+  }
   &-brand {
     font-family: $secondary-font;
     color: white !important;
@@ -23,6 +35,17 @@
     li a {
       font-family: $secondary-font;
       color: white !important;
+    }
+  }
+  .dropdown {
+    &-menu{
+      a{
+        color: $primary-color !important;
+      }
+      a:hover{
+        color: $faded-primary !important;
+        background-color: $primary-color !important;
+      }
     }
   }
 }
