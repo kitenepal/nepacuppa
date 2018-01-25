@@ -7,7 +7,6 @@
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
-  color: #fff;
 }
 
 // .hero, .content{
@@ -115,7 +114,12 @@
 //--------------------------------------------------------------------------------------------------------------------------
 
 .goodreading{
-  padding-bottom: 30px;
+  color: #fff;
+  &--bg{
+    background: #000;
+    opacity: 0.5;
+    padding-bottom: 30px;
+  }
 }
 .testimonial_subtitle{
     color: $primary-color;

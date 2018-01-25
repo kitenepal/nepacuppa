@@ -102,27 +102,32 @@ a {
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
-  color: #fff;
 }
 
-/* line 117, ../sass/module/_goodReading.scss */
+/* line 116, ../sass/module/_goodReading.scss */
 .goodreading {
+  color: #fff;
+}
+/* line 118, ../sass/module/_goodReading.scss */
+.goodreading--bg {
+  background: #000;
+  opacity: 0.5;
   padding-bottom: 30px;
 }
 
-/* line 120, ../sass/module/_goodReading.scss */
+/* line 124, ../sass/module/_goodReading.scss */
 .testimonial_subtitle {
   color: #311b0e;
   font-size: 12px;
 }
 
-/* line 124, ../sass/module/_goodReading.scss */
+/* line 128, ../sass/module/_goodReading.scss */
 .testimonial_btn {
   background-color: #373d4b !important;
   color: #fff !important;
 }
 
-/* line 128, ../sass/module/_goodReading.scss */
+/* line 132, ../sass/module/_goodReading.scss */
 .seprator {
   height: 2px;
   width: 56px;
