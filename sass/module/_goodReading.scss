@@ -1,8 +1,9 @@
-#hero1{
-  background:url('../img/goodreading.jpg');
-  background-size:cover;
-  background-position:center center;
-  background-attachment:fixed;
+#hero1 {
+  background: url('../img/goodreading.jpg');
+
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
@@ -13,12 +14,10 @@
 //   position:relative;
 //   width: 100%;
 // }
-
 // .inner{
 //   min-height:400px;
 //   position: relative;
 // }
-
 // .hero .inner{
 //   background: rgba(0,0,0,0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
 //   overflow: hidden;
@@ -26,40 +25,32 @@
 // .hero p{
 //   color: #fff;
 // }
-
 // .carousel-indicators .active {
 //     background: #31708f;
 // }
-
 // .adjust1 {
 //   float: left;
 //   width: 100%;
 //   margin-bottom: 0;
 // }
-
 // .adjust2 {
 //   margin: 0;
 // }
-
 // .carousel-indicators li {
 //   border: 1px solid #ccc;
 // }
-
 // .carousel-control {
 //   color: #31708f;
 //   width: 5%;
 // }
-
 // .carousel-control:hover,
 // .carousel-control:focus {
 //   color: #31708f;
 // }
-
 // .carousel-control.left,
 // .carousel-control.right {
 //   background-image: none;
 // }
-
 // .media-object {
 //   margin: auto;
 //   margin-top: 15%;
@@ -100,8 +91,6 @@
 //     margin-top: 40px;
 //   }
 // }
-
-
 // @media screen and (min-width: 768px) {
 //   .md--testa{
 //     position: absolute;
@@ -110,28 +99,38 @@
 //     transform: translateY(-50%) translateX(-50%);
 //   }
 // }
-
 //--------------------------------------------------------------------------------------------------------------------------
-
-.goodreading{
-  color: #fff;
-  &--bg{
-    background: #000;
-    opacity: 0.5;
+.goodreading {
+  color: white;
+  &--bg {
     padding-bottom: 30px;
   }
+  h4{
+      margin: 2px !important;
+  }
 }
-.testimonial_subtitle{
-    color: $primary-color;
-    font-size: 12px;
+
+.overlay{
+  background:black;
+  opacity:.8;
+  .container{
+    opacity:1;
+  }
 }
-  .testimonial_btn{
-    background-color: #373d4b !important;
-    color: #fff !important;
- }
- .seprator {
-    height: 2px;
-    width: 56px;
-    background-color: $primary-color;
-    margin: 7px 0 10px 0;
+
+.testimonial_subtitle {
+  color: $faded-primary;
+  font-size: 12px;
+}
+
+.testimonial_btn {
+  background-color: #373d4b !important;
+  color: #fff !important;
+}
+
+.seprator {
+  height: 2px;
+  width: 76px;
+  background-color: $faded-primary;
+  margin: 15px 0 10px 0;
 }
