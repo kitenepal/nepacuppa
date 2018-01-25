@@ -198,17 +198,37 @@ p, li {
   font-family: "Roboto Condensed", sans-serif;
   color: white !important;
 }
-/* line 42, ../sass/module/_header.scss */
-.navbar .dropdown-menu a {
-  color: #311b0e !important;
-}
-/* line 45, ../sass/module/_header.scss */
-.navbar .dropdown-menu a:hover {
-  color: #c2a96f !important;
+/* line 41, ../sass/module/_header.scss */
+.navbar .dropdown-menu {
   background-color: #311b0e !important;
 }
+/* line 43, ../sass/module/_header.scss */
+.navbar .dropdown-menu a {
+  color: white !important;
+}
+/* line 46, ../sass/module/_header.scss */
+.navbar .dropdown-menu a:hover {
+  color: white !important;
+  background-color: #5e4423 !important;
+}
+/* line 52, ../sass/module/_header.scss */
+.navbar-toggle {
+  transition: 0.5s;
+}
+/* line 54, ../sass/module/_header.scss */
+.navbar-toggle:hover {
+  background-color: #5e4423 !important;
+}
+/* line 57, ../sass/module/_header.scss */
+.navbar-toggle:focus {
+  background-color: #5e4423 !important;
+}
+/* line 60, ../sass/module/_header.scss */
+.navbar-toggle span {
+  color: #311b0e !important;
+}
 
-/* line 53, ../sass/module/_header.scss */
+/* line 66, ../sass/module/_header.scss */
 .affix ~ .navfix-management {
   position: relative;
   top: 60px;
