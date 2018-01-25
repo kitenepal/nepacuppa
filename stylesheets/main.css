@@ -102,136 +102,34 @@ a {
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
-}
-
-/* line 12, ../sass/module/_goodReading.scss */
-.hero, .content {
-  position: relative;
-  width: 100%;
-}
-
-/* line 17, ../sass/module/_goodReading.scss */
-.inner {
-  min-height: 400px;
-  position: relative;
-}
-
-/* line 22, ../sass/module/_goodReading.scss */
-.hero .inner {
-  background: rgba(0, 0, 0, 0.7) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
-  overflow: hidden;
-}
-
-/* line 26, ../sass/module/_goodReading.scss */
-.hero p {
   color: #fff;
 }
 
-/* line 30, ../sass/module/_goodReading.scss */
-.carousel-indicators .active {
-  background: #31708f;
+/* line 117, ../sass/module/_goodReading.scss */
+.goodreading {
+  padding-bottom: 30px;
 }
 
-/* line 34, ../sass/module/_goodReading.scss */
-.adjust1 {
-  float: left;
-  width: 100%;
-  margin-bottom: 0;
+/* line 120, ../sass/module/_goodReading.scss */
+.testimonial_subtitle {
+  color: #311b0e;
+  font-size: 12px;
 }
 
-/* line 40, ../sass/module/_goodReading.scss */
-.adjust2 {
-  margin: 0;
+/* line 124, ../sass/module/_goodReading.scss */
+.testimonial_btn {
+  background-color: #373d4b !important;
+  color: #fff !important;
 }
 
-/* line 44, ../sass/module/_goodReading.scss */
-.carousel-indicators li {
-  border: 1px solid #ccc;
+/* line 128, ../sass/module/_goodReading.scss */
+.seprator {
+  height: 2px;
+  width: 56px;
+  background-color: #311b0e;
+  margin: 7px 0 10px 0;
 }
 
-/* line 48, ../sass/module/_goodReading.scss */
-.carousel-control {
-  color: #31708f;
-  width: 5%;
-}
-
-/* line 53, ../sass/module/_goodReading.scss */
-.carousel-control:hover,
-.carousel-control:focus {
-  color: #31708f;
-}
-
-/* line 58, ../sass/module/_goodReading.scss */
-.carousel-control.left,
-.carousel-control.right {
-  background-image: none;
-}
-
-/* line 63, ../sass/module/_goodReading.scss */
-.media-object {
-  margin: auto;
-  margin-top: 15%;
-}
-
-/* line 67, ../sass/module/_goodReading.scss */
-.fa-arrow-right {
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  z-index: 5;
-  display: inline-block;
-}
-
-/* line 74, ../sass/module/_goodReading.scss */
-.fa-arrow-left {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  z-index: 5;
-  display: inline-block;
-}
-
-/* line 81, ../sass/module/_goodReading.scss */
-.carousel-indicators {
-  bottom: 0px !important;
-}
-
-/* line 84, ../sass/module/_goodReading.scss */
-.maintain-text {
-  padding-top: 10px;
-}
-
-@media screen and (max-width: 990px) {
-  /* line 88, ../sass/module/_goodReading.scss */
-  .carousel-indicators {
-    bottom: -30px !important;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 93, ../sass/module/_goodReading.scss */
-  .media-object {
-    margin-top: 0;
-  }
-
-  /* line 96, ../sass/module/_goodReading.scss */
-  .maintain-text {
-    padding-top: 0px;
-  }
-
-  /* line 99, ../sass/module/_goodReading.scss */
-  .md--testa {
-    margin-top: 40px;
-  }
-}
-@media screen and (min-width: 768px) {
-  /* line 106, ../sass/module/_goodReading.scss */
-  .md--testa {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-  }
-}
 /* line 1, ../sass/module/_header.scss */
 .header-video {
   line-height: 0px;
@@ -285,8 +183,12 @@ a {
   margin-top: 10px;
   overflow: hidden;
 }
+/* line 2, ../sass/module/_gallery.scss */
+.gallery h1 {
+  margin-top: 40px;
+}
 
-/* line 12, ../sass/module/_gallery.scss */
+/* line 15, ../sass/module/_gallery.scss */
 .gallery img {
   width: 100%;
   height: auto;
@@ -301,23 +203,23 @@ a {
   /* For standard browsers like IE. :-) */
 }
 
-/* line 23, ../sass/module/_gallery.scss */
+/* line 26, ../sass/module/_gallery.scss */
 .gallery img:hover {
   opacity: 1;
 }
 
-/* line 27, ../sass/module/_gallery.scss */
+/* line 30, ../sass/module/_gallery.scss */
 .modal-img, .model-vid {
   width: 100%;
   height: auto;
 }
 
-/* line 31, ../sass/module/_gallery.scss */
+/* line 34, ../sass/module/_gallery.scss */
 .modal-body {
   padding: 0px;
 }
 
-/* line 35, ../sass/module/_gallery.scss */
+/* line 38, ../sass/module/_gallery.scss */
 .modal-dialog {
   text-align: center;
   vertical-align: middle;
@@ -325,34 +227,34 @@ a {
   top: 15%;
 }
 
-/* line 42, ../sass/module/_gallery.scss */
+/* line 45, ../sass/module/_gallery.scss */
 .modal-content {
   border: none;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 47, ../sass/module/_gallery.scss */
+  /* line 50, ../sass/module/_gallery.scss */
   .gallery {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
   }
 
-  /* line 52, ../sass/module/_gallery.scss */
+  /* line 55, ../sass/module/_gallery.scss */
   .gallery div {
     margin: 0;
     width: 200px;
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 58, ../sass/module/_gallery.scss */
+  /* line 61, ../sass/module/_gallery.scss */
   .gallery {
     -webkit-column-count: 1;
     -moz-column-count: 1;
     column-count: 1;
   }
 
-  /* line 63, ../sass/module/_gallery.scss */
+  /* line 66, ../sass/module/_gallery.scss */
   .gallery div {
     margin: 0;
     width: 200px;
